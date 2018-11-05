@@ -5,23 +5,11 @@
   <body>
     <a-scene>
       <a-assets>
-     <a-asset-item id="cone.obj" src="/path/to/cone-obj.obj"></a-asset-item> 
-     <a-asset-item id="obj.mtl" src="/path/to/obj.mtl"></a-asset-item>
+     <a-asset-item id="cell.obj" src="/path/to/cell-obj.obj"></a-asset-item> 
+     <a-asset-item id="cell.mtl" src="/path/to/cell.mtl"></a-asset-item>
+     <a-entity obj-model="obj: #cell-obj; mtl: #cell-mtl" scale="0.01 0.01 0.01"></a-entity>
 </a-assets>
-<a-entity obj-model="obj: #cone-obj; mtl: #obj-mtl"></a-entity>
-      <a-box position="0 1.90 -2" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-cylinder position="0 2.75 -2" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-box position="0 4.90 -2" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-cylinder position="0 2.75 -2" radius=".75" height="8.5" color="#75E90F"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 -2" width="4" height="4" color="#000000"></a-plane>
-       <a-sphere position="0 0.95 -2" radius=".85" color="#FF2700"></a-sphere>
-      <a-sphere position="0 3.90 -2" radius=".85" color="#FF2700"></a-sphere>
-      <a-sphere position="0 1.1 -2" radius=".85" color="#FF2700"></a-sphere>
-      <a-sphere position="0 1.90 -2" radius=".85" color="#FF2700"></a-sphere>
-      <a-sphere position="0 2.75 -2" radius="5.75" height="10.5" color="#FFFFFF"></a-sphere>
-      <a-sphere position="0 40 -30" radius="2.75" height="60.5" color="#E8FF00"></a-sphere>
-        <a-text position="0 1 5" value="Hunter is the best ever!" width="20" height="20" color="#FFFFFF"></a-text>
-      <a-sky color="#000000"></a-sky>
+<a-scene>
     </a-scene>
   </body>
 </html>
