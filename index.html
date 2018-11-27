@@ -1,15 +1,18 @@
- <html>
+html>
   <head>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-assets>
-     <a-asset-item id="cell-obj" src="cell.obj"></a-asset-item> 
-     <a-asset-item id="cell-mtl" src="cell.mtl"></a-asset-item> 
- <a-entity obj-model="obj: #cell-obj; mtl: #cell-mtl" position="0 0 0" rotation="-89.873 0.010 0.000" scale="1.134 1.099 1.545"></a-entity> 
-<a-sphere position="0 40 -30" radius="2.75" height="60.6r" color="#E8FF00"></a-sphere>
-<a-text position="0 1 5" value="nucleus!" width="20" height="20" color="#FFFFFF"></a-text>
-    </a-scene>  
+      <a-plane position="0 0 -4" rotation="-90 0 -2" width="4" height="4" color="#000000"></a-plane>
+       <a-sphere position="0 0.95 -2" radius=".85" color="#FF2700"></a-sphere>
+      <a-sphere position="0 3.90 -2" radius=".85" color="#FF2700"></a-sphere>
+      <a-sphere position="0 1.1 -2" radius=".85" color="#FF2700"></a-sphere>
+      <a-sphere position="0 1.90 -2" radius=".85" color="#FF2700"></a-sphere>
+      <a-sphere position="0 2.75 -2" radius="5.75" height="10.5" color="#FFFFFF"></a-sphere>
+      <a-sphere position="0 40 -30" radius="2.75" height="60.5" color="#E8FF00"></a-sphere>
+        <a-text position="0 1 5" value="Hunter is the best ever!" width="20" height="20" color="#FFFFFF"></a-text>
+      <a-sky color="#000000"></a-sky>
+    </a-scene>
   </body>
 </html>
